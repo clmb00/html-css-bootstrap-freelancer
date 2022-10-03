@@ -1,0 +1,47 @@
+.my-small-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #2C3E50;
+  height: 90px;
+}
+
+#jumbotron{
+  background-color: #1ABC9C;
+
+  /* DEBUG */
+  height: 588px;
+}
+
+#portfolio{
+
+  /* DEBUG */
+  height: 1250px;
+}
+
+#about{
+  background-color: #1ABC9C;
+
+  /* DEBUG */
+  height: 547px;
+}
+
+#contact-me{
+
+  /* DEBUG */
+  height: 685px;
+}
+
+#footer-top{
+  background-color: #1ABC9C;
+
+  /* DEBUG */
+  height: 231px;
+}
+
+#footer-down{
+  background-color: #2C3E50;
+  height: 110px;
+}
