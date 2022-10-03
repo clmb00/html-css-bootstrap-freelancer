@@ -74,13 +74,15 @@ header{
 
 /* FOOTER */
 #footer-top{
+  padding: 50px 0;
   background-color: #3A546D;
-
-  /* DEBUG */
-  height: 231px;
 }
 
 #footer-down{
   background-color: #2C3E50;
   height: 110px;
+}
+
+#footer-down div{
+  line-height: 110px;
 }
