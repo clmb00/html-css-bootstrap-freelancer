@@ -22,6 +22,7 @@ li{
 
 .debug{
   border: 1px solid black;
+  background-color: rgba(21, 155, 128, .5);
 }
 
 /* HEADER */
@@ -38,12 +39,6 @@ header{
   padding: 50px 0;
 }
 
-#jumbotron .debug{
-
-  /* DEBUG */
-  background-color: rgba(21, 155, 128, .5);
-}
-
 #jumbotron img.debug{
 
   /* DEBUG */
@@ -54,12 +49,6 @@ header{
 
 #portfolio{
   padding: 50px 0;
-}
-
-#portfolio .debug{
-
-  /* DEBUG */
-  background-color: rgba(116, 116, 116, 0.5);
 }
 
 #portfolio .col.debug{
@@ -73,21 +62,19 @@ header{
   padding: 50px 0;
 }
 
-#about .debug{
-
-  /* DEBUG */
-  background-color: rgba(21, 155, 128, .5);
+#contact-me{
+  padding: 50px 0;
 }
 
-#contact-me{
+#contact-me form input:not(:last-of-type), textarea{
 
   /* DEBUG */
-  height: 685px;
+  width: 100%;
 }
 
 /* FOOTER */
 #footer-top{
-  background-color: #1ABC9C;
+  background-color: #3A546D;
 
   /* DEBUG */
   height: 231px;
