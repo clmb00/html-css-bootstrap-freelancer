@@ -53,16 +53,30 @@ header{
 }
 
 #portfolio{
+  padding: 50px 0;
+}
+
+#portfolio .debug{
 
   /* DEBUG */
-  height: 1250px;
+  background-color: rgba(116, 116, 116, 0.5);
+}
+
+#portfolio .col.debug{
+
+  /* DEBUG */
+  height: 264px;
 }
 
 #about{
   background-color: #1ABC9C;
+  padding: 50px 0;
+}
+
+#about .debug{
 
   /* DEBUG */
-  height: 547px;
+  background-color: rgba(21, 155, 128, .5);
 }
 
 #contact-me{
