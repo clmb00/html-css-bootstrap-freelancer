@@ -1,13 +1,34 @@
+/* GENERAL */
+body{
+  color: white;
+  
+  /* DEBUG */
+  font-weight: bold;
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+}
+
 .my-small-container{
   width: 60%;
   margin: 0 auto;
 }
 
+/* HEADER */
 header{
+  display: flex;
+  align-items: center;
   background-color: #2C3E50;
   height: 90px;
 }
 
+/* MAIN */
 #jumbotron{
   background-color: #1ABC9C;
 
@@ -34,6 +55,7 @@ header{
   height: 685px;
 }
 
+/* FOOTER */
 #footer-top{
   background-color: #1ABC9C;
 
