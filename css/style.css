@@ -20,6 +20,10 @@ li{
   margin: 0 auto;
 }
 
+.debug{
+  border: 1px solid black;
+}
+
 /* HEADER */
 header{
   display: flex;
@@ -31,9 +35,21 @@ header{
 /* MAIN */
 #jumbotron{
   background-color: #1ABC9C;
+  padding: 50px 0;
+}
+
+#jumbotron .debug{
 
   /* DEBUG */
-  height: 588px;
+  background-color: rgba(21, 155, 128, .5);
+}
+
+#jumbotron img.debug{
+
+  /* DEBUG */
+  display: inline-block;
+  width: 230px;
+  height: 270px;
 }
 
 #portfolio{
