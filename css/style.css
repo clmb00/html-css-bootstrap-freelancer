@@ -17,6 +17,7 @@ li{
 
 .my-small-container{
   width: 60%;
+  max-width: 970px;
   margin: 0 auto;
 }
 
