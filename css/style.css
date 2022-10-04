@@ -1,8 +1,3 @@
-/* GENERAL */
-body{
-  color: white;
-}
-
 /* UTILITIES */
 .debug{
   border: 1px solid red;
@@ -22,19 +17,33 @@ header nav .my_ham_menu{
 /* MAIN */
 #jumbotron{
   background-color: #1ABC9C;
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
-#jumbotron img.debug{
+#jumbotron .my_avatar{
+  width: 240px;
+}
 
-  /* DEBUG */
-  display: inline-block;
-  width: 230px;
-  height: 270px;
+#jumbotron .my_h1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#jumbotron .my_hr{
+  height: 4px;
+  background-color: white;
+  width: 12%;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+#jumbotron .my_hr+i{
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 
 #portfolio{
-  padding: 50px 0;
+  padding: 90px 0;
 }
 
 #portfolio .col.debug{
@@ -45,11 +54,11 @@ header nav .my_ham_menu{
 
 #about{
   background-color: #1ABC9C;
-  padding: 50px 0;
+  padding: 90px 0px 60px;
 }
 
 #contact-me{
-  padding: 50px 0;
+  padding: 90px 0px 60px;
 }
 
 #contact-me form input:not(:last-of-type), textarea{
