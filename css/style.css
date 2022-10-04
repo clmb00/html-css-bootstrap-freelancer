@@ -3,12 +3,6 @@ body{
   color: white;
 }
 
-.my-small-container{
-  width: 60%;
-  max-width: 970px;
-  margin: 0 auto;
-}
-
 /* UTILITIES */
 .debug{
   border: 1px solid red;
