@@ -1,3 +1,21 @@
+/* GENERAL */
+.my_h1{
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+.my_hr{
+  height: 4px;
+  width: 12%;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.my_hr+i{
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
 /* UTILITIES */
 .debug{
   border: 1px solid red;
@@ -25,31 +43,24 @@ header nav .my_ham_menu{
 }
 
 #jumbotron .my_h1{
-  font-weight: bold;
   font-size: 3rem;
-}
-
-#jumbotron .my_hr{
-  height: 4px;
-  background-color: white;
-  width: 12%;
-  border-radius: 4px;
-  vertical-align: middle;
-}
-
-#jumbotron .my_hr+i{
-  font-size: 1.5rem;
-  vertical-align: middle;
 }
 
 #portfolio{
   padding: 90px 0;
 }
 
-#portfolio .col.debug{
+#portfolio .hover_card{
+  background-color: rgb(26, 188, 156, .6);
+  display: none;
+}
 
-  /* DEBUG */
-  height: 264px;
+#portfolio .hover_content{
+  font-size: 5rem;
+}
+
+#portfolio .hover_princ:hover .hover_card{
+  display: flex;
 }
 
 #about{
