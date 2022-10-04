@@ -80,8 +80,12 @@ header nav .my_ham_menu{
 }
 
 #contact-me form .mb-3>*::placeholder{
-  color: #3A546D;
+  color: #2C3E50;
   font-size: 1.2rem;
+}
+
+#contact-me .my_no_shadow{
+  box-shadow: none;
 }
 
 #contact-me .my_btn{
@@ -95,11 +99,36 @@ header nav .my_ham_menu{
   background-color: #3A546D;
 }
 
+#footer-top .my_logos a{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0px 5px;
+  color: white;
+}
+
+#footer-top .my_logos a:hover{
+  color: #1ABC9C;
+  background-color: white;
+}
+
+#footer-top .col:last-of-type p a{
+  color: #1ABC9C;
+  text-decoration: none;
+}
+
+#footer-top .col:last-of-type p a:hover{
+  text-decoration: underline;
+}
+
 #footer-down{
   background-color: #2C3E50;
   height: 110px;
 }
 
-#footer-down div{
-  line-height: 110px;
+#footer-down p{
+  line-height: calc(110px - 1rem);
 }
