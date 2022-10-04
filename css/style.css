@@ -72,10 +72,21 @@ header nav .my_ham_menu{
   padding: 90px 0px 60px;
 }
 
-#contact-me form input:not(:last-of-type), textarea{
+#contact-me form .mb-3>*{
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  padding-bottom: 25px;
+}
 
-  /* DEBUG */
-  width: 100%;
+#contact-me form .mb-3>*::placeholder{
+  color: #3A546D;
+  font-size: 1.2rem;
+}
+
+#contact-me .my_btn{
+  background-color: #1ABC9C;
+  color: white;
 }
 
 /* FOOTER */
